@@ -11,6 +11,7 @@
 height: 652px;
 background-image: url(../assets/Hero-bg.png);
 font-family: "Azeret Mono", monospace;
+margin: 0 auto;
 
 }
 .banner-items{
@@ -81,6 +82,8 @@ display: flex;
 flex-direction: column;
 align-items: center;
 background: rgba(13, 19, 33, 0.02);
+margin: 0 auto;
+margin-top: 95px;
 }
 .first-section h1{color: rgb(13, 19, 33);
     font-family: Azeret Mono;
@@ -193,4 +196,41 @@ justify-content: space-between;
 
 
 
+/* video section start */
 
+.secound-section{
+    width: 1140px;
+height: 777px;
+border: 2px solid red;
+margin: 0 auto;
+margin-top: 90px;
+display: flex;
+flex-direction: column;
+align-items: center;
+
+}
+.secound-section h2{color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+
+}
+.secound-section p{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: center;
+
+}
+.video{
+    width: 1140px;
+height: 614px;
+border: 2px solid red;
+}
+/* video section end */
