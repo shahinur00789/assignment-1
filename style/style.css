@@ -325,7 +325,6 @@ padding: 40px;
 .support{
     width: 1140px;
 height: 450px;
-border: 2px solid red;
 margin: 0 auto;
 margin-top: 95px;
 background-color: rgba(0,0,0,0.5);
@@ -427,3 +426,40 @@ margin: 20px auto;
 border: none;
 }
 /* main section done */
+/* footer */
+footer{
+    width: 1440px;
+height: 100px;
+margin: 0 auto;
+margin-top: 95px;
+border-radius: 16px;
+background: rgba(13, 19, 33, 0.03);;
+    display: flex;
+    justify-content: space-between;
+    padding: 32px 150px 32px 150px;
+}
+footer ul li{
+    list-style: none;
+    display: flex;
+    flex-direction:row;
+}
+.footer-colum-1{
+    display: flex;
+    width: 200px;
+    height: 36px;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 25PX;
+}
+.footer-colum P{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 20px;
+font-weight: 600;
+line-height: 23px;
+letter-spacing: 0%;
+text-align: center;
+margin: 0 auto;
+margin-top: 30px;
+}
+/* all clear */
